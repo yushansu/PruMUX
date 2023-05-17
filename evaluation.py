@@ -23,8 +23,7 @@ from transformers.trainer_utils import EvalPrediction
 
 from models.modeling_bert import (CoFiBertForQuestionAnswering,
                                   CoFiBertForSequenceClassification)
-from models.modeling_roberta import CoFiRobertaForSequenceClassification
-from models.multiplexing_pretraining_bert_cofi import MuxedBertForSequenceClassification
+from models.multiplexing_pretraining_bert_prumux import MuxedBertForSequenceClassification
 from utils.cofi_utils import *
 from utils.qa_utils import *
 from utils.utils import *

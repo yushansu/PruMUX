@@ -33,7 +33,7 @@ conda env create -f prumux.yml
 #### Overview
 For PruMUX training, refer to `run_PruMUX.sh` and `run_PruMUX_FT.sh`. For PruMUX inference, refer to `evaluation.py`.
 #### PruMUX checkpoints
-We release Prumux [checkpoints]() for all parameter combinations in the paper's Figure 3. 
+We release Prumux [checkpoints](https://drive.google.com/file/d/1CPQLo5r4wlgAgvDnVRdKkcU-_kk58sjq/view?usp=sharing) for all parameter combinations in the paper's Figure 3. 
 
 #### Settings
 
@@ -79,6 +79,7 @@ DISTILL_LAYER_LOSS_ALPHA=0.9
 DISTILL_CE_LOSS_ALPHA=0.1
 LAYER_DISTILL_VERSION=4
 LEARNING_RATE=3e-5
+
 bash scripts/run_PruMUX_FT.sh $TASK $SPARSITY $N $DISTILL_LAYER_LOSS_ALPHA $DISTILL_CE_LOSS_ALPHA $LAYER_DISTILL_VERSION $LEARNING_RATE
 ```
 
