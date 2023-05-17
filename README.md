@@ -42,7 +42,7 @@ We use the following hyperparamters for training PruMUX:
 |               | PruMUX | 
 |:--------------|:-----------:|
 | Pruning batch size  | 32*N   | 
-| Pruning learning rate  | 64 | 
+| Finetune batch size  | 64 | 
 | Layer distill. alpha | 0.9, 0.7, 0.5|
 | Cross entropy distill. alpha | 0.1, 0.3, 0.5|
 | Training epoch | 40 |
