@@ -54,7 +54,7 @@ We use the following hyperparamters for training PruMUX:
 
 
 
-Below we list exemplar commands for PruMUX training:
+Below we list example commands for PruMUX training:
 
 #### Training
 An example runs pruning is as follows:
