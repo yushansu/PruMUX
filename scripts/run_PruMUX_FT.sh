@@ -7,11 +7,6 @@
 #SBATCH --gres=gpu:1             # number of gpus per node
 #SBATCH --time=23:55:00          # total run time limit (HH:MM:SS)
 
-module purge
-module load anaconda3/2021.5
-conda activate torch-env
-
-
 glue_low=(MRPC RTE STSB CoLA)
 glue_high=(MNLI QQP QNLI SST2)
 
@@ -69,7 +64,7 @@ PRUNED_MODEL_PATH=${proj_dir}/out/${task_name}/${ex_cate}/${ex_name}/best
 # pruning and distillation
 pruning_type=${PRUNING_TYPE}
 target_sparsity=${SPARSITY}
-distillation_path=/scratch/gpfs/yushans/datamux-prune-pretrain/princeton-nlp/muxbert_base_${task_lower}_gaussian_hadamard_index_pos_${NUM_INSTANCES}
+distillation_path=princeton-nlp/muxbert_base_${task_lower}_gaussian_hadamard_index_pos_${NUM_INSTANCES}
 distill_temp=2
 
 scheduler_type=linear
