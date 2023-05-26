@@ -2,7 +2,7 @@
 
 PyTorch implementation for the paper:
 
-**[PruMUX: Augmenting Data Multiplexing with Model Compression for High Throughput Transformers](https://arxiv.org/abs/2305.14706)**  
+**[PruMUX: Augmenting Data Multiplexing with Model Compression](https://arxiv.org/abs/2305.14706)**  
 Yushan Su, Vishvak Murahari, Karthik Narasimhan, Kai Li
 
 ![models](images/prumux-overview.png)
