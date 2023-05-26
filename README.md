@@ -2,7 +2,7 @@
 
 PyTorch implementation for the paper:
 
-**[PruMUX: Augmenting Data Multiplexing with Model Compression for High Throughput Transformers]()**  
+**[PruMUX: Augmenting Data Multiplexing with Model Compression for High Throughput Transformers](https://arxiv.org/abs/2305.14706)**  
 Yushan Su, Vishvak Murahari, Karthik Narasimhan, Kai Li
 
 ![models](images/prumux-overview.png)
@@ -23,7 +23,7 @@ Our code is implemented in PyTorch. To setup, do the following:
 ```
 git clone https://github.com/yushansu/PruMUX.git prumux
 ```
-3. Install requirements into the `prumux` virtual environment, using [Anaconda](https://anaconda.org/anaconda/python):
+3. Install requirements into the `torch-env` virtual environment, using [Anaconda](https://anaconda.org/anaconda/python):
 ```
 conda env create -f prumux.yml
 ```
@@ -33,7 +33,7 @@ conda env create -f prumux.yml
 #### Overview
 For PruMUX training, refer to `run_PruMUX.sh` and `run_PruMUX_FT.sh`. For PruMUX inference, refer to `evaluation.py`.
 #### PruMUX checkpoints
-We release Prumux [checkpoints](https://drive.google.com/file/d/1CPQLo5r4wlgAgvDnVRdKkcU-_kk58sjq/view?usp=sharing) for all parameter combinations in the paper's Figure 3. 
+We release Prumux [checkpoints](https://drive.google.com/drive/folders/1kJcPcevH38Pc7krI491jIBmd2KWjS4cN?usp=sharing) for all parameter combinations in the paper's Figure 3. 
 
 #### Settings
 
@@ -99,5 +99,5 @@ python evaluation.py $TASK $SPARSITY $N
 ```
  -->
 <!-- ``` -->
-<!-- ### License
-Check `LICENSE.md` -->
+### License
+Check `LICENSE.md`
