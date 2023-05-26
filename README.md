@@ -7,11 +7,16 @@ Yushan Su, Vishvak Murahari, Karthik Narasimhan, Kai Li
 
 ![models](images/prumux-overview.png)
 
-<!-- If you find this work useful in your research, please cite:
+This repository contains code for reproducing PruMUX results. We provide pretrained model weights and associated configs to run inference and the code to train these models. If you find this work useful in your research, please cite:
 
 ```
-
-``` -->
+@article{su2023prumux,
+  title={PruMUX: Augmenting Data Multiplexing with Model Compression},
+  author={Su, Yushan and Murahari, Vishvak and Narasimhan, Karthik and Li, Kai},
+  journal={arXiv preprint arXiv:2305.14706},
+  year={2023}
+}
+```
 
 
 ### Setup and Dependencies
